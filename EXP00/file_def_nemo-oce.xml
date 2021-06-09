@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<!--
+============================================================================================================
+=                                           output files definition                                        =
+=                                            Define your own filesfor ocean dynamics context               =
+=                                         put the variables you want...                                    =
+============================================================================================================
+    -->
+   
+    <file_definition type="one_file" name="@expname@_@freq@_@startdate@_@enddate@" sync_freq="1d" min_digits="4">
+
+      <file_group id="1h" output_freq="1h"  sync_freq="1h" output_level="10" enabled=".TRUE."> <!-- 1h files -->
+       <file id="file11" name_suffix="_grid_T" description="ocean T grid variables" enabled=".true." >
+          <field field_ref="sst"  />
+          <field field_ref="sss"  />
+          <field field_ref="ssh"  />
+
+          <field field_ref="sbt"  />
+          <field field_ref="sbs"  />
+          <field field_ref="taubot"  />
+       </file>
+      </file_group>
+
+      <file_group id="6h" output_freq="6h"  output_level="10" enabled=".TRUE."> <!-- 6h files -->
+       <file id="file12" name_suffix="_grid_T" description="ocean T grid variables" enabled=".true." >
+          <field field_ref="toce" />
+          <field field_ref="soce" />
+      	  <field field_ref="taum"  />
+      	  <field field_ref="wspd"  />
+       </file>
+
+      	<file id="file13" name_suffix="_grid_U" description="ocean U grid variables" enabled=".true.">
+	        <field field_ref="e3u" />
+	        <field field_ref="ssu"          name="uos"      />
+          <field field_ref="ubar"          name="ubar"      />
+	        <field field_ref="utau"         name="tauuo"    />
+          <field field_ref="uoce"          name="uoce"      />
+          <field field_ref="sbu" />
+	      </file>
+	
+      	<file id="file14" name_suffix="_grid_V" description="ocean V grid variables" enabled=".true.">
+	        <field field_ref="e3v" />
+	        <field field_ref="ssv"          name="vos"      />
+          <field field_ref="vbar"          name="vbar"      />
+	        <field field_ref="vtau"         name="tauvo"    />
+          <field field_ref="voce"          name="voce"      />
+          <field field_ref="sbv" />
+      	</file>
+
+    	  <file id="file15" name_suffix="_grid_W" description="ocean W grid variables" enabled=".true.">
+	        <field field_ref="e3w" />
+  	      <field field_ref="woce"         name="woce"       />
+    	  </file>
+
+      </file_group>
+ 
+      <file_group id="1d" output_freq="1d"  output_level="10" enabled=".false.">  <!-- 1d files -->   
+
+        <file id="file17" name_suffix="_grid_U" description="ocean U grid variables" enabled=".true.">
+          <field field_ref="e3u" />
+          <field field_ref="uocetr_eff"   name="utr" />
+        </file>
+
+        <file id="file18" name_suffix="_grid_V" description="ocean V grid variables" enabled=".true.">
+          <field field_ref="e3v" />
+          <field field_ref="vocetr_eff"   name="vtr" />
+        </file>
+
+        <file id="file19" name_suffix="_grid_W" description="ocean W grid variables" enabled=".true.">
+          <field field_ref="e3w" />
+          <field field_ref="wocetr_eff"   name="wtr" />
+        </file>
+
+      </file_group> 
+
+      <file_group id="1m" output_freq="1mo" output_level="10" enabled=".false."> <!-- real monthly files -->
+      </file_group>
+
+      <file_group id="1y"  output_freq="1y" output_level="10" enabled=".TRUE."> <!-- real yearly files -->
+      </file_group>
+	
+      
+   </file_definition>
+    
+
+
+
