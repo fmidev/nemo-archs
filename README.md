@@ -33,18 +33,20 @@ e.g. from BSBD.
 ## Authors and acknowledgements
 
 This configuration has been developed at the Finnish Meteorological Institute (FMI) by
-Antti Westerlund. Elina Miettunen from the Finnish Environment Institute (SYKE) contributed to the 
+Antti Westerlund. Elina Miettunen from the Finnish Environment Institute (Syke) contributed to the 
 development work significantly. Furthermore, a number of other people have contributed, 
 see the cited paper for more information.
 
-If you refer to this configuration in your work, please cite at least Westerlund et al. (2021).
+If you refer to this configuration in your work, please cite at least Westerlund et al. (2021) somewhere in your paper. Optionally, you can also refere to this GitHub repository directly.
+
+This configuration has been used also in the paper Miettunen et al. (2023).
 
 
 ## Contact and contributing
 
 This repository is maintained by Antti Westerlund.
 
-E-mail: antti.westerlund (at) fmi.fi, twitter: [@AnttiWesterlund](https://twitter.com/AnttiWesterlund).
+E-mail: antti.westerlund (at) fmi.fi, X: [@AnttiWesterlund](https://twitter.com/AnttiWesterlund).
 
 Contributions and improvements are most welcome. If you wish to use this configuration for your work,
 please consider contacting us to discuss possible collaborations.
@@ -59,9 +61,9 @@ Please see the file LICENCE for more information.
 
 ## References
 
-Westerlund A., Miettunen E., Tuomi L., Alenius P. (2021).
-Refined estimates of water transport through the Åland Sea, Baltic Sea.
-Manuscript.
+Westerlund, A., Miettunen, E., Tuomi, L., and Alenius, P.: Refined estimates of water transport through the Åland Sea in the Baltic Sea, Ocean Sci., 18, 89–108, [https://doi.org/10.5194/os-18-89-2022], 2022. 
+
+Miettunen, E., Tuomi, L., Westerlund, A., Kanarik, H., and Myrberg, K.: Transport dynamics in a complex coastal archipelago, EGUsphere \[preprint\], [https://doi.org/10.5194/egusphere-2023-1547], 2023. 
 
 
 
