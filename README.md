@@ -46,7 +46,7 @@ This configuration has been used also in the paper Miettunen et al. (2023).
 
 This repository is maintained by Antti Westerlund.
 
-E-mail: antti.westerlund (at) fmi.fi, X: [@AnttiWesterlund](https://twitter.com/AnttiWesterlund).
+E-mail: antti.westerlund (at) fmi.fi.
 
 Contributions and improvements are most welcome. If you wish to use this configuration for your work,
 please consider contacting us to discuss possible collaborations.
